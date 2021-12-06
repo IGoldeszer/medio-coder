@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+.quienesSomos {
+  padding-bottom: 15px;
+}
+
+// *{
+//   border-width: 1px !important;
+//   border-color: red !important;
+// }
+
+@media (max-width: 412px) {
+  .border__Ppal img, .quienesSomos img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .border__deNotas{
+    width: 95%!important;
+  }
+  .border__notasSecundarias img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .fuenteSecundaria {
+    text-align: justify;
+  }
+}
+ 
+@media (max-width: 768px) {
+  .border__Ppal img, .quienesSomos img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .border__notasSecundarias img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+  @media (max-width: 1024px) {
+  .border__Ppal img, .quienesSomos img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .border__notasSecundarias img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+  
+.border__notasSecundarias {
+  width: 1080px;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  // margin: auto;
+}
+
+.border__deNotas{
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 60%;
+  height: 30%;
+  margin: auto;
+}
+
+.border__nota-ppal{
+  border: 1px solid red;
+}
+
+.border__Ppal, .quienesSomos {
+  border: 1px solid red;
+  width: 1080px;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 50%;
+  height: 30%;
+  margin: auto;
+}
+  
+/* CSS DE MI TRABAJO */
+.galeria__Padre {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  text-align: center;
+}
+  
+/* CSS DE MI TRABAJO */
+.breadcrumb {
+  justify-content: center;
+  padding-top: 1%;
+}
+  
+.enlace {
+  font-family: "Arial Black", Arial, sans-serif;
+  text-align: center;
+}
+  
+.fuenteSecundaria {
+  font-family: "Calibri Light", sans-serif;
+  font-size: 20px;
+  padding: 2vh 0vh 0vh 2vh;
+}
+  
+.enlace:link {
+  color: black;
+  text-decoration: none;
+}
+  
+.enlace:visited {
+  color: black;
+  text-decoration: none;
+}
+  
+.logo__Padre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+/* EDICION DEL TEXTO EN CADA ARTICULO */
+.texto__Articulos {
+  display: grid;
+  margin: 10px;
+  text-align: justify;
+  font-family: "Calibri Light", sans-serif;
+  font-size: large;
+}
+  
+.navBar__bootstrap {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+.formularioPrincipal {
+  text-align: center;
+}
